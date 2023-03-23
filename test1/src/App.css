@@ -1,0 +1,144 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.form-label {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.main-conatiner {
+  background-color: blue;
+  height: 500px;
+  font-size: 30px;
+  margin-top: 200px;
+}
+
+.form-control {
+  margin-top: 50px;
+  width: 150px;
+}
+
+.container {
+  background-color: blue;
+  height: 500px;
+  width: 200px;
+}
+
+.serachBarContainer {
+  width: 60%;
+  margin: auto;
+  height: 60vh;
+  background-color: #6f6ff2;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.serachBarContainer label {
+  color: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 40px;
+}
+
+.serachBarContainer input {
+  width: 50%;
+  align-self: center;
+  padding: 5px 10px 5px 10px;
+  border-radius: 6px;
+  border: none;
+}
+
+.taskConatiner {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+}
+
+.cardContainer {
+  background-color: #6f6ff2;
+  padding: 15px;
+  color: #fff;
+  width: 50%;
+  height: 60vh;
+}
+
+.backContainer {
+  text-align: end;
+}
+
+.backContainer input {
+  background: none;
+  border: 1px solid #fff;
+  padding: 5px 10px 5px 10px;
+  border-radius: 24px;
+  color: #fff;
+}
+
+.divider {
+  border-bottom: 1px solid #fff;
+  margin: 10px 30px 10px 30px;
+}
+
+.imageContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 55%;
+}
+
+.imageContainer img {
+  width: 200px;
+}
+
+.footerContainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.footerContainerInner{
+  height: 30px;
+  width: 40%;
+  /* text-align: center; */
+}
