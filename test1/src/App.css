@@ -69,6 +69,7 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
+  border-radius: 6px;
 }
 
 .serachBarContainer label {
@@ -91,7 +92,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid;
 }
 
 .cardContainer {
@@ -99,7 +99,7 @@
   padding: 15px;
   color: #fff;
   width: 50%;
-  height: 60vh;
+  height: 70vh;
 }
 
 .backContainer {
@@ -141,4 +141,9 @@
   height: 30px;
   width: 40%;
   /* text-align: center; */
+}
+
+.errorContainer{
+  color: #fff;
+  text-align: center;
 }
